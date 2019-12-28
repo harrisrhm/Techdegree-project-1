@@ -17,6 +17,7 @@ a {
   text-decoration: none;
   color: #999;
 }
+
 a:hover {
   color: #6633ff;
 }
@@ -31,6 +32,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -45,26 +47,31 @@ a:hover {
     margin-right: auto;
     color: white;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 header {
   text-align: center;
-  background: url('images/rsz_brighton.jpg') no-repeat top center ;
+  background: url('images/rsz_brighton.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -73,9 +80,11 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -83,11 +92,13 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
+
 .location {
   background-color: #222;
   color: yellow;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -98,6 +109,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #ffdb99;
 }
@@ -123,14 +135,12 @@ ul.skills {
 /*hr styling*/
 
 hr {
-
   display: block;
   height: 2.5px;
   border: 0;
-  border-top: 2.5px solid rgb(204, 204, 204);
+  border-top: 2.5px solid #cccccc;
   margin: 1em auto;
   padding: 0;
-
 }
 
 footer {
@@ -164,20 +174,29 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
 a.twitter {
   background-image: url(images/twitter.svg);
 }
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
+
 a.github {
   background-image: url(images/github.svg);
 }
+
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
+}
+
+address {
+  font-style: normal;
 }
 
 /* Styles for larger screens */
@@ -216,6 +235,4 @@ a.social:hover {
     margin: 40px auto;
   }
 
-address {
-  font-style: normal;
 }
