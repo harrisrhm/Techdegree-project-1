@@ -76,13 +76,13 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 50%;            
   border: 3px solid white;
   transition: all .5s;
 }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 
 .tag {
@@ -130,6 +130,13 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+/*hobby image styling*/
+
+main .hobby-image {
+  width: 100%;
+  height: auto;
 }
 
 /*hr styling*/
